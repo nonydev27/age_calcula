@@ -1,7 +1,4 @@
 import java.util.Scanner;
-// import java.util.Date;
-// import java.awt.*;
-
 public class Main{
     public static void main(String[] args){
         // System.out.println("Hello");
@@ -32,11 +29,15 @@ public class Main{
             String x = "water";
             String y = "kool-aid";
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("What is your name?");
+     
+     //creating a user input to take in the name and then display to output
+     Scanner scanner = new Scanner(System.in);
+    System.out.println("What is your name?");
+    String name = scanner.nextLine();
 
-        String name = scanner.nextLine();
-        System.out.println("welcome "+name);
+    System.out.print("Oh! Hey "+name+ " Welcome to this java program");
+
+
     };
 }
 
