@@ -35,8 +35,14 @@ public class Main{
     System.out.println("What is your name?");
     String name = scanner.nextLine();
 
-    System.out.print("Oh! Hey "+name+ " Welcome to this java program");
+    System.out.println("Oh! Hey "+name+ " Welcome to this java program");
 
+
+     
+    System.out.println("What is your age ? ");
+     int age = scanner.nextInt();
+ 
+    System.out.println("Woah!!, " +name+ " you are "+age+ " years old? that's cool!");
 
     };
 }
